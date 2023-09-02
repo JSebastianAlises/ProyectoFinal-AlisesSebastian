@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1, 
+        "titulo": "ESQUIVANDO CHARCOS", 
+        "precio": 1500
+    },
+    {
+        "id": 2,
+        "titulo": "A DONDE ME LLEVA LA VIDA",
+        "precio": 2400
+    },
+    {
+        "id": 3,
+        "titulo": "BAILANDO EN UNA PATA",
+        "precio": 1070
+    },
+    {
+        "id": 4,
+        "titulo": "DESPEDAZADO POR MIL PARTES",
+        "precio": 2000,
+        "stock": 2
+    },
+    {
+        "id": 5,
+        "titulo": "LA RENGA",
+        "precio": 1100
+    },
+    {
+        "id": 6,
+        "titulo": "LA ESQUINA DEL INFINITO",
+        "precio": 2200
+    },
+    {
+        "id": 7,
+        "titulo": "INSOPORTABLEMENTE VIVO",
+        "precio": 2500
+    },
+    {
+        "id": 8,
+        "titulo": "DOCUMENTO UNICO",
+        "precio": 1000
+    },
+    {
+        "id": 9,
+        "titulo": "DETONADOR DE SUEÑOS",
+        "precio": 80
+    },
+    {
+        "id": 10,
+        "titulo": "TRUENOTIERRA",
+        "precio": 4000
+    },
+    {
+        "id": 11,
+        "titulo": "ALGUN RAYO",
+        "precio": 5000
+    },
+    {
+        "id": 12,
+        "titulo": "PESADOS VESTIGIOS",
+        "precio": 5500
+    },
+    {
+        "id": 13,
+        "titulo": "ALEJADO DE LA RED",
+        "precio": 7000
+    }
+]

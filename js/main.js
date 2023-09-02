@@ -19,7 +19,7 @@ function crearTarjetasProductosInicio () {
 
 // RECORRO TODO EL JSON DE DISCOS Y LO TRAIGO AL INDEX EN FORMATO DE TARJETAS
 function renderArray(discografia) { 
-    discografia.forEach((disco) => { //informo += abajo, para que se pongan uno debajo del otro
+    discografia.forEach((disco) => { 
         const tarjetasDeDiscos = document.createElement ("div")
         tarjetasDeDiscos.classList.add ("disco-tarjeta")
         tarjetasDeDiscos.innerHTML =`

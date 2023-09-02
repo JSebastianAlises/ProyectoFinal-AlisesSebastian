@@ -5,7 +5,7 @@ const contenedorCarritoVacio = document.querySelector ("#contenedor-carrito-vaci
 const contenedorCarritoDeCompras = document.querySelector ("#carrito-de-compras");
 const contenedorAccionesDeCarrito = document.querySelector ("#acciones-de-carrito");
 const comprar = document.querySelector ("#Comprar");
-const compraRealizada = document.querySelector ("#compra-realizada"); //Mensaje de compra
+const compraRealizada = document.querySelector ("#compra-realizada"); 
 const tituloCarritoDeCompras = document.querySelector ("#titulo-carrito-de-compras") 
 
 // CREACIÓN DE TARJETAS EN EL CARRITO DE COMPRAS CON DATOS DEL STORAGE
@@ -49,7 +49,7 @@ function sumarDisco (disco) {
     const restarCd = discosEnCarrito.find (disco => disco.id === cd) 
 
     if (restarCd.cantidad >= 1) {
-        restarCd.cantidad++; // 
+        restarCd.cantidad++; 
     }     
     crearTarjetasDeCarrito ()
     sincronizarStorage()

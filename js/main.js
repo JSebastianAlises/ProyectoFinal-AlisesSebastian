@@ -36,15 +36,13 @@ crearTarjetasProductosInicio()
 
 // RELACIONADO A LA FUNCIONABILIDAD DEL CARRITO EL LOCAL STORAGE
 
-let carritoDeComprasLista = []; // Carrito que quiero llenar con los diferentes discos que vaya a comprar
+let carritoDeComprasLista = []; 
 
 const discosElegidos = document.querySelector ("#discos-elegidos tbody"); 
 
-// Asignar evento al link de comprar que figura en los discos del HTML
+// FUNCION QUE REACCIONA AL CLICK EN AGREGAR DISCO
 
 contenedorTarjetas.addEventListener("click", comprarDisco)
-
-// FUNCION QUE REACCIONA AL CLICK EN AGREGAR DISCO
 
 function comprarDisco(evt){
     evt.preventDefault(); 
@@ -198,10 +196,9 @@ function informacionCarrito () {
     }
 }
 
+//SACO FUNCIÓN AL LINK DE LA IMAGEN DEL CARRITO
 const imagenCarrito = document.querySelector ("#imagen-carrito")
-
 imagenCarrito.addEventListener ("click", quitarFuncion)
-
 function quitarFuncion (evt){
     evt.preventDefault();
 }
